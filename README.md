@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dev Portfolio 🚀
 
-## Getting Started
+A modern, responsive developer portfolio built with **Next.js 15**, **Tailwind CSS**, and **Radix UI** components. This project is designed to showcase your work, skills, and services while maintaining a sleek and professional look.
 
-First, run the development server:
+---
+
+## 🌟 Features
+- **Responsive Design**: Optimized for all devices, from mobile to desktop.
+- **Dynamic Themes**: Easily switch between light and dark modes using `next-themes`.
+- **Animations**: Smooth and engaging animations powered by **Framer Motion**.
+- **Contact Form**: Integrated contact form with **Nodemailer** for real-time communication.
+- **Optimized Performance**: Leveraging TurboPack for faster builds and efficient runtime.
+
+---
+
+## 🛠️ Technologies Used
+### **Frontend**
+- **Next.js 15**: Modern React framework for server-rendered applications.
+- **React 19**: The latest version for creating UI components.
+- **TailwindCSS 3.4**: Utility-first CSS framework for styling.
+- **Radix UI**: Accessible, high-quality UI components.
+- **Framer Motion**: Library for animations and transitions.
+
+### **Utilities**
+- `clsx`, `class-variance-authority`, `tailwind-merge`: Tools for managing class names and dynamic styling.
+- **Nodemailer**: Email handling for the contact form.
+
+### **Dev Tools**
+- **TypeScript 5**: Strongly typed JavaScript for better developer experience.
+- **ESLint**: Linting for cleaner, error-free code.
+- **TurboPack**: Experimental bundler for faster builds.
+
+---
+
+# 🚀 Getting Started
+
+1. Clone the Repository
+```bash
+git clone https://github.com/amruthlp12/dev-portfolio.git
+cd dev-portfolio
+```
+2. Install Dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Run the Development Server
+```bash
+npm run dev
+```
+Your app will be available at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Build for Production
+```bash
+npm run build
+```
+5. Start the Production Server
+```bash
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# ✨ Customization
+Update the content in the respective components (/components) to reflect your personal details, projects, and services.
 
-## Learn More
+Modify the TailwindCSS configuration in tailwind.config.js for custom styling.
 
-To learn more about Next.js, take a look at the following resources:
+Adjust theme settings in next-themes to fit your preferred design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add a link to your deployed portfolio (e.g., Vercel, Netlify, or your preferred hosting platform).
 
-## Deploy on Vercel
+📧 Contact
+If you have any questions or feedback, feel free to reach out:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Email: amruthlp12@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/AmruthLP12
+
+Portfolio: https://amruthlp.vercel.app/
+
+📝 License
+This project is licensed under the MIT License.
+
+❤️ Thank You for Checking Out My Portfolio!
+If you like this project, please give it a ⭐ on GitHub!
