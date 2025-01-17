@@ -104,7 +104,7 @@ export default function Hero() {
         >
           <div className="aspect-square rounded-full bg-gradient-to-br from-[hsl(var(--vibrant-1))] via-[hsl(var(--vibrant-2))] to-[hsl(var(--vibrant-3))] opacity-70 blur-2xl"></div>
           <img
-            src="/your-image.jpg"
+            src="/Profile.png"
             alt="Your Name"
             className="absolute inset-0 w-full h-full object-cover rounded-full"
           />
